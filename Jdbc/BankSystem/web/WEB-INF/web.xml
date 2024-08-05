@@ -40,7 +40,15 @@
     </servlet-mapping>
     
     
+     <servlet>
+        <servlet-name>debit</servlet-name>
+        <servlet-class>com.BankSystem.CheckBalance</servlet-class>
+    </servlet>
     
+    <servlet-mapping>
+        <servlet-name>debit</servlet-name>
+        <url-pattern>/D_Balance</url-pattern>
+    </servlet-mapping>
     
     
     
